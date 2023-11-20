@@ -1,16 +1,31 @@
 #include <iostream>
 
-int main() {
-    int firstValue = 10;
-    int secondValue = 8;
-    int temp; // Variabel tambahan
+using namespace std;
 
-    // Menukar nilai menggunakan variabel tambahan
-    temp = firstValue;
-    firstValue = secondValue;
-    secondValue = temp;
+int main()
+{
+  cout << "##  Program C++ Biodata Mahasiswa  ##" << endl;
+  cout << "====================================" << endl;
+  cout << endl;
 
-    std::cout << "Setelah pertukaran, firstValue = " << firstValue << " dan secondValue = " << secondValue << std::endl;
+  string nama, nim, fakultas, jurusan, kota_asal, alamat;
 
-    return 0;
-}
+  cout << "Nama mahasiswa: ";
+  getline(cin,nama);
+
+  cout << "NIM: ";
+  getline(cin,nim);
+
+  cout << "Fakultas: ";
+  getline(cin,fakultas);
+
+  cout << "Jurusan: ";
+  getline(cin,jurusan);
+
+  cout << "Kota Asal: ";
+  getline(cin,kota_asal);
+
+  cout << "Alamat: ";
+  getline(cin,alamat);
+
+  cout << endl;
